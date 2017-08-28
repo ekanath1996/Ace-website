@@ -1,0 +1,90 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #68030c;
+    width: 100%;
+    border-radius: 10%;   
+}
+
+li {
+    float: left;
+}
+
+li a {
+    
+    margin-left: 40%;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Times New Roman;
+}
+
+li a:hover {
+    
+    background-color: #440107;
+}
+
+
+
+
+#menu
+{
+    border-radius: 10%;
+   margin-top: 1%;
+   box-shadow: 0 0 20px; 
+    
+}
+
+input[type=text] {
+    width: 240px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('search_icon_org.png');
+    background-position: 4px 4px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    height:40px;
+}
+
+input[type=text]:focus {
+    width: 50%;
+}
+
+#search{
+    
+    margin-top: 4px;
+    margin-left: 6%;
+    
+}
+
+
+
+#bg_color{
+    
+    
+    
+     background: linear-gradient(to bottom, #ffffff 0%, #111 100%);
+
+}
+
+#login
+{
+    
+    margin-left: 20px;
+    margin-top: -25px;
+    width: 280px;
+    box-shadow: 10px 0 30px 15px;
+    
+}
+
+
+

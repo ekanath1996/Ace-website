@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ace</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Registration-Form.css">
+    <script src="assets/js/validate.js"></script><script src="assets/js/validate.js"></script>
+    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    
+</head>
+
+<body>
+
+    <div class="row register-form">
+        <div class="col-md-8 col-md-offset-2">
+            <form class="form-horizontal custom-form">
+            
+                <h1>Register Form</h1>
+                <div class="form-group">
+                    <div class="col-sm-4 label-column">
+                        <label class="control-label" for="name-input-field">Name </label>
+                        
+                    </div>
+
+                    <div class="col-sm-6 input-column">
+
+                        <input class="form-control" type="text" id="name_val" onkeyup="error_msg_1()" >
+                    </div>
+                    <div class="col-sm-1 input-column">
+                     <p id="error_1"></p>
+                    </div>
+                </div>
+
+                    <div class="form-group">
+                    <div class="col-sm-4 label-column">
+                        <label class="control-label" for="usn-input-field">Usn </label>
+                    </div>
+                    <div class="col-sm-6 input-column">
+                        <input class="form-control" type="text" id="usn_val" onkeyup="error_msg_2()">
+                    </div>
+                    <div class="col-sm-1 input-column">
+                     <p id="error_2"></p>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-4 label-column">
+                        <label class="control-label" for="email-input-field">Email </label>
+                    </div>
+                    <div class="col-sm-6 input-column">
+                        <input class="form-control" type="Email" id="email_val" onkeyup="error_msg_3()">
+                    </div>
+                    <div class="col-sm-1 input-column">
+                     <p id="error_3"></p>
+                    </div>
+                    
+
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-4 label-column">
+                        <label class="control-label" for="pawssword-input-field">Password </label>
+                    </div>
+                    <div class="col-sm-6 input-column">
+                        <input class="form-control" type="password" id="pass_val" onkeyup="error_msg_4()">
+                    </div>
+                    <div class="col-sm-1 input-column">
+                     <p id="error_4"></p>
+                    </div>
+
+
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-4 label-column">
+                        <label class="control-label" for="repeat-pawssword-input-field">Repeat Password </label>
+                    </div>
+                    <div class="col-sm-6 input-column">
+                        <input class="form-control" type="password" id="con_pass_val" onkeyup="error_msg_5()">
+                    </div>
+                    <div class="col-sm-1 input-column">
+                     <p id="error_5"></p>
+                    </div>
+
+
+                </div>
+               
+                
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="term_val">I've read and accept the terms and conditions</label>
+                </div>
+                <button class="btn btn-default submit-button" type="button" onclick="full_validate()">Submit Form</button>
+            </form>
+        </div>
+    </div>
+    
+
+
+
+
+</body>
+
+</html>
